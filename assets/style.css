@@ -1,0 +1,9 @@
+.jumbotron-fluid {
+    border-radius: 25px;
+}
+h2, h3, .panel-body, .display-3, .lead {
+    font-family: 'Creepster', cursive;
+}
+.panel {
+    border: solid;
+}
