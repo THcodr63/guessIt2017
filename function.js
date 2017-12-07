@@ -1,4 +1,4 @@
-var monsters = ["dracula", "wolfman", "frankenstein", "godzilla", "triffids", "gremlins", "pumpkinhead", "blob", "critters", "cyclops", "graboids", "pinhead", "gillman"];
+var monsters = ["dracula", "wolfman", "frankenstein", "pennywise", "gremlins", "pumpkinhead", "blob", "critters", "imhotep", "brundlefly", "pinhead", "gillman"];
 var selectedWord = "";
 var wordLetters = [];
 var blankSpace = 0;

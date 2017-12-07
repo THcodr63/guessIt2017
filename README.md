@@ -17,10 +17,9 @@
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
           <center><h1 class="display-3">Guess It!!</h1>
-          <p class="lead">Horror movie monster!</p></center>
+          <p class="lead">Horror Movie Monsters!</p></center>
         </div>
-    </div>
-    
+    </div> 
   <div class="bgImage">
     <div class="panel panel-default">
         <div class="panel-heading">
