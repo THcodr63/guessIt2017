@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -52,7 +52,7 @@
   </div>  
 </div>   
 
-<script src="function.js"></script>
+
 
  
 </body>
