@@ -1,7 +1,8 @@
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <title>Guess It Game|T.Hamilton</title>
     <link rel="stylesheet" href="assets/reset.css">
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -18,7 +19,8 @@
           <center><h1 class="display-3">Guess It!!</h1>
           <p class="lead">Horror Movie Monsters!</p></center>
         </div>
-    </div> 
+    </div>
+    
   <div class="bgImage">
     <div class="panel panel-default">
         <div class="panel-heading">
@@ -28,30 +30,34 @@
             <h2 id="wordToGuess">_ _ _ _ _ _ _ _ _</h2>
         </div>
     </div>
+
     <div class="panel panel-default">
-        <div class="panel-body">
+        <div class="panel-body reverse">
             Wrong Guesses: <span id="wrongGuess"></span>
         </div>
     </div>
+
     <div class="panel panel-default">
-        <div class="panel-body">
+        <div class="panel-body reverse">
             Guesses Left: <span id="guessLeft"></span>
         </div>
     </div>
+
     <div class="panel panel-default">
-        <div class="panel-body">
+        <div class="panel-body reverse">
             Wins: <span id="wins"></span>
         </div>
     </div>  
+    
     <div class="panel panel-default">
-        <div class="panel-body">
+        <div class="panel-body reverse">
             Losses: <span id="losses"></span>
         </div>
     </div> 
   </div>  
 </div>   
 
-
+<script src="function.js"></script>
 
  
 </body>
