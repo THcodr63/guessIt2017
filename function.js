@@ -2,7 +2,7 @@ var monsters = ["dracula", "wolfman", "frankenstein", "pennywise", "gremlins", "
 var selectedWord = "";
 var wordLetters = [];
 var blankSpace = 0;
-var blanksAndSuccesses = []; // d_ _ _ _ _ _
+var blanksAndSuccesses = [];
 var wrongLetters = [];
 
 var winsCo = 0;
@@ -18,7 +18,7 @@ function startGame () {
     wrongLetters = [];
     blanksAndSuccesses = [];
 
-    for (var i=0; i<blankSpace; i++){
+    for (var i = 0; i < blankSpace; i++){
         blanksAndSuccesses.push("_");
     }
 
@@ -36,7 +36,7 @@ function startGame () {
 function checkLetters(letter) {
 
     var isWordLetters = false;
-    for (var i=0; i<blankSpace; i++){
+    for (var i = 0; i < blankSpace; i++){
         if(selectedWord[i] == letter) {
             isWordLetters = true;
         }
